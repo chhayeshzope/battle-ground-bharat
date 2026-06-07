@@ -1,0 +1,81 @@
+<div class="row-layout register-form-container">
+  <form class="column-layout register-form">
+    <div class="column-layout register-header">
+      <h4 class="content">
+        Create Your BattleGrounds Bharat Account
+      </h4>
+      <h6 class="content">
+        Join the fight for survival.
+      </h6>
+    </div>
+    <div class="row-layout social-register-buttons">
+      <button igxButton="outlined" type="button" class="register-google-button">
+        <igx-icon>
+          web_stories
+        </igx-icon>
+        <span>Google</span>
+      </button>
+      <button igxButton="outlined" type="button" class="register-google-button">
+        <igx-icon family="imx-icon" name="imx-apple-app-store"></igx-icon>
+        <span>Apple</span>
+      </button>
+      <button igxButton="outlined" type="button" class="register-google-button">
+        <igx-icon family="imx-icon" name="imx-facebook-messenger"></igx-icon>
+        <span>Facebook</span>
+      </button>
+    </div>
+    <div class="row-layout or-continue-with">
+      <div class="row-layout divider-left"></div>
+      <p class="ig-typography__overline or-text">
+        Or continue with
+      </p>
+      <div class="row-layout divider-left"></div>
+    </div>
+    <div class="column-layout register-inputs">
+      <igx-input-group type="border" class="register-fullname">
+        <input type="text" [(ngModel)]="value" placeholder="Enter your full name" required="true" igxInput #igxInput />
+        <label igxLabel>Full Name</label>
+        @if (igxInput.validity.valueMissing) {
+          <igx-hint>This field is required</igx-hint>
+        }
+      </igx-input-group>
+      <igx-input-group type="border" class="register-fullname">
+        <input type="email" [(ngModel)]="value1" placeholder="Enter your email" required="true" igxInput #igxInput1 />
+        <label igxLabel>Email</label>
+        @if (igxInput1.validity.valueMissing) {
+          <igx-hint>This field is required</igx-hint>
+        }
+      </igx-input-group>
+      <igx-input-group type="border" class="register-fullname">
+        <input type="password" [(ngModel)]="value2" placeholder="Create a password" required="true" igxInput #igxInput2 />
+        <label igxLabel>Password</label>
+        @if (igxInput2.validity.valueMissing) {
+          <igx-hint>This field is required</igx-hint>
+        }
+      </igx-input-group>
+      <igx-input-group type="border" class="register-fullname">
+        <input type="password" [(ngModel)]="value3" placeholder="Re-enter your password" required="true" igxInput #igxInput3 />
+        <label igxLabel>Confirm Password</label>
+        @if (igxInput3.validity.valueMissing) {
+          <igx-hint>This field is required</igx-hint>
+        }
+      </igx-input-group>
+      <div class="row-layout register-consent">
+        <igx-checkbox labelPosition="after" required="true" [(ngModel)]="checked" class="register-checkbox">
+          I agree to the terms and conditions
+        </igx-checkbox>
+      </div>
+      <button igxButton="contained" type="submit" class="register-submit-button">
+        Sign Up
+      </button>
+    </div>
+    <div class="row-layout register-footer">
+      <p class="ig-typography__body-2 content">
+        Already have an account?
+      </p>
+      <a href="#" target="_blank" [routerLink]="[`/landing-page/login-page`]" class="ig-typography__body-2 register-footer-link">
+        Login Here
+      </a>
+    </div>
+  </form>
+</div>

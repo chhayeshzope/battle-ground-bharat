@@ -1,0 +1,160 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+}
+.row-layout {
+  display: flex;
+}
+.login-form-container {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  padding: 32px;
+  min-width: min-content;
+  min-height: 0;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.login-header {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.social-login-buttons {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 16px;
+  min-height: 16px;
+  flex-shrink: 0;
+}
+.login-or-continue-with {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 16px;
+  min-height: 16px;
+  flex-shrink: 0;
+}
+.login-divider-left {
+  border-color: var(--ig-gray-300);
+  border-width: 2px 0px 0px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  min-width: unset;
+  max-width: unset;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.login-inputs {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.login-remember-forgot {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 16px;
+  min-height: 16px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.login-footer {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 16px;
+  min-height: 16px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.login-form {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  min-width: 320px;
+  min-height: 50px;
+  max-width: 560px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.login-google-button {
+  --ig-size: var(--ig-size-large);
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.login-email {
+  height: max-content;
+  min-width: min-content;
+}
+.login-remember-me {
+  width: max-content;
+  height: max-content;
+}
+.login-submit-button {
+  --ig-size: var(--ig-size-large);
+  height: max-content;
+}
+.content {
+  height: max-content;
+  min-width: min-content;
+}
+.login-or-text {
+  text-align: center;
+  color: var(--ig-gray-800);
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.login-forgot-password {
+  color: var(--ig-primary-500);
+  cursor: pointer;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.login-image {
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0;
+}

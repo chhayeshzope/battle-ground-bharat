@@ -1,0 +1,380 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+}
+.row-layout {
+  display: flex;
+}
+.hero-section {
+  background-color: var(--ig-primary-900);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 400px;
+  flex-shrink: 0;
+}
+.hero-content-row {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  max-width: 1400px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.hero-text-column {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 320px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.hero-actions-column {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.hero-buttons {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 16px;
+  min-height: 16px;
+  flex-shrink: 0;
+}
+.features-section {
+  background-color: var(--ig-surface-500);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.features-content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  max-width: 1400px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.features-header {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.features-cards {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.dynamic-festivals-card {
+  --background: var(--ig-surface-200);
+  min-width: 240px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.dynamic-festivals-content {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.testimonials-section {
+  background-color: var(--ig-surface-100);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.testimonial-card-1 {
+  --background: var(--ig-surface-200);
+  min-width: 320px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.testimonial-card-1-reviewer {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.testimonial-card-1-reviewer-details {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.battle-royale-card {
+  min-width: 240px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.battle-royale-content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.faq-accordion {
+  overflow-y: auto;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.footer-section {
+  background-color: var(--ig-surface-100);
+  border-color: var(--ig-gray-200);
+  border-width: 1px 0px 0px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.footer-top-row {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.footer-links-row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  max-width: 1400px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.company-info-column {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 240px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.company-logo {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.social-icons {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 4px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.contact-email {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 16px;
+  min-height: 16px;
+  flex-shrink: 0;
+}
+.footer-bottom-row {
+  border-color: var(--ig-gray-200);
+  border-width: 1px 0px 0px;
+  border-style: solid;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+  position: relative;
+  padding: 16px 32px;
+  min-width: 16px;
+  min-height: 16px;
+  flex-shrink: 0;
+}
+.content {
+  color: var(--ig-primary-900-contrast);
+  height: max-content;
+  min-width: min-content;
+}
+.hero-image {
+  object-fit: cover;
+  border-radius: 8px;
+  min-width: 200px;
+  min-height: 0;
+  max-height: 350px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.content_3 {
+  text-align: center;
+  height: max-content;
+  min-width: min-content;
+}
+.dynamic-festivals-icon {
+  --ig-size: var(--ig-size-medium);
+  --igx-avatar-background: var(--ig-secondary-100);
+}
+.icon {
+  color: var(--ig-secondary-100-contrast);
+}
+.content_2 {
+  height: max-content;
+  min-width: min-content;
+}
+.testimonial-card-1-reviewer-avatar {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: var(--ig-secondary-100);
+}
+.battle-royale-benefit-1-avatar {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: transparent;
+}
+.company-icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--ig-gray-600);
+}
+.company-name {
+  color: var(--ig-gray-900);
+  height: max-content;
+  min-width: min-content;
+}
+.company-tagline {
+  color: var(--ig-gray-700);
+  height: max-content;
+  min-width: min-content;
+}
+.link-home {
+  color: var(--ig-gray-700);
+  cursor: pointer;
+  height: max-content;
+  min-width: min-content;
+}
+.email-icon {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: var(--ig-gray-600);
+}
+.dynamic-festivals-icon_1::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.dynamic-festivals-icon_2::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.dynamic-festivals-icon_3::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.testimonial-card-1-reviewer-avatar_1::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.testimonial-card-1-reviewer-avatar_2::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.testimonial-card-1-reviewer-avatar_3::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.pre-register-button {
+  --ig-size: var(--ig-size-large);
+  height: max-content;
+  flex-shrink: 0;
+}
+.dynamic-festivals-button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.testimonial-card-1-rating {
+  --ig-size: var(--ig-size-medium);
+  width: max-content;
+  height: max-content;
+}
+.battle-royale-benefits {
+  height: max-content;
+}

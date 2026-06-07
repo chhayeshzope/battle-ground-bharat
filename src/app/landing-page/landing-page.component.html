@@ -1,0 +1,38 @@
+<igx-navbar class="landing-page-nav-bar">
+  <igx-navbar-title class="navbar-content">
+    <div [routerLink]="[`/landing-page/landing-page-content`]" class="row-layout title-row">
+      <igx-icon class="game-icon">
+        sports_esports
+      </igx-icon>
+      <h6 class="game-title">
+        BattleGrounds Bharat
+      </h6>
+    </div>
+    <button igxButton="flat" type="button" class="how-it-works-button">
+      How it Works
+    </button>
+    <button igxButton="flat" type="button" class="how-it-works-button">
+      Features
+    </button>
+    <button igxButton="flat" type="button" class="how-it-works-button">
+      Game Modes
+    </button>
+    <button igxButton="flat" type="button" class="how-it-works-button">
+      FAQ
+    </button>
+  </igx-navbar-title>
+  <button igxIconButton="flat" class="search-icon">
+    <igx-icon class="icon">
+      search
+    </igx-icon>
+  </button>
+  <button igxButton="contained" type="button" [routerLink]="[`/landing-page/register-page`]" class="how-it-works-button">
+    Sign Up
+  </button>
+  <button igxButton="flat" type="button" [routerLink]="[`/landing-page/login-page`]" class="how-it-works-button">
+    Login
+  </button>
+</igx-navbar>
+<div class="landing-page-view-container">
+  <router-outlet></router-outlet>
+</div>
